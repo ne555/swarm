@@ -10,7 +10,7 @@ void simulator::run(size_t cant, ostream *out){
 	for(size_t K=0; K<cant; ++K){
 		e.moverse();
 		if(out){ 
-			(*out) << fitness << ' ' <<setprecision(10)<<"x : "<< <<" y : "<<" "<< << endl;
+			cout << e.mejor() << ' ' << best << endl;
 		}
 		//cerr << K << ' ';
 		//p.print();

@@ -17,6 +17,7 @@ private:
 	particle best;
 
 	void inicializar_particulas();
+	void update();
 };
 
 #endif
